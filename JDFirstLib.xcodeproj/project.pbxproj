@@ -16,6 +16,7 @@
 		18227CBD26405558002FF2C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18227CBB26405558002FF2C7 /* Main.storyboard */; };
 		18227CBF2640555A002FF2C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18227CBE2640555A002FF2C7 /* Assets.xcassets */; };
 		18227CC22640555A002FF2C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18227CC02640555A002FF2C7 /* LaunchScreen.storyboard */; };
+		18227CCB26405DBA002FF2C7 /* JDFirstLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18227CCA26405DBA002FF2C7 /* JDFirstLib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		18227CBE2640555A002FF2C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18227CC12640555A002FF2C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18227CC32640555A002FF2C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18227CCA26405DBA002FF2C7 /* JDFirstLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JDFirstLib.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				18227C96264053A9002FF2C7 /* JDFirstLib.h */,
 				18227C97264053A9002FF2C7 /* Info.plist */,
+				18227CCA26405DBA002FF2C7 /* JDFirstLib.swift */,
 			);
 			path = JDFirstLib;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				TargetAttributes = {
 					18227C92264053A9002FF2C7 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 					18227C9B264053A9002FF2C7 = {
 						CreatedOnToolsVersion = 12.4;
@@ -262,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18227CCB26405DBA002FF2C7 /* JDFirstLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +443,7 @@
 		18227CA8264053A9002FF2C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = C7R3Y3G5X7;
@@ -454,6 +460,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jdc.JDFirstLib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,6 +469,7 @@
 		18227CA9264053A9002FF2C7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = C7R3Y3G5X7;
@@ -486,6 +494,7 @@
 		18227CAB264053A9002FF2C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C7R3Y3G5X7;
 				INFOPLIST_FILE = JDFirstLibTests/Info.plist;
@@ -504,6 +513,7 @@
 		18227CAC264053A9002FF2C7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C7R3Y3G5X7;
 				INFOPLIST_FILE = JDFirstLibTests/Info.plist;
