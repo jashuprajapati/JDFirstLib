@@ -10,6 +10,12 @@
 		18227C9D264053A9002FF2C7 /* JDFirstLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18227C93264053A9002FF2C7 /* JDFirstLib.framework */; };
 		18227CA2264053A9002FF2C7 /* JDFirstLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18227CA1264053A9002FF2C7 /* JDFirstLibTests.swift */; };
 		18227CA4264053A9002FF2C7 /* JDFirstLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 18227C96264053A9002FF2C7 /* JDFirstLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18227CB626405558002FF2C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18227CB526405558002FF2C7 /* AppDelegate.swift */; };
+		18227CB826405558002FF2C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18227CB726405558002FF2C7 /* SceneDelegate.swift */; };
+		18227CBA26405558002FF2C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18227CB926405558002FF2C7 /* ViewController.swift */; };
+		18227CBD26405558002FF2C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18227CBB26405558002FF2C7 /* Main.storyboard */; };
+		18227CBF2640555A002FF2C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18227CBE2640555A002FF2C7 /* Assets.xcassets */; };
+		18227CC22640555A002FF2C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18227CC02640555A002FF2C7 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +35,14 @@
 		18227C9C264053A9002FF2C7 /* JDFirstLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JDFirstLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18227CA1264053A9002FF2C7 /* JDFirstLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JDFirstLibTests.swift; sourceTree = "<group>"; };
 		18227CA3264053A9002FF2C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18227CB326405558002FF2C7 /* JDFirstLibExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDFirstLibExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18227CB526405558002FF2C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18227CB726405558002FF2C7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18227CB926405558002FF2C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18227CBC26405558002FF2C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18227CBE2640555A002FF2C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18227CC12640555A002FF2C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18227CC32640555A002FF2C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +61,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		18227CB026405558002FF2C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +76,7 @@
 			children = (
 				18227C95264053A9002FF2C7 /* JDFirstLib */,
 				18227CA0264053A9002FF2C7 /* JDFirstLibTests */,
+				18227CB426405558002FF2C7 /* JDFirstLibExample */,
 				18227C94264053A9002FF2C7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +86,7 @@
 			children = (
 				18227C93264053A9002FF2C7 /* JDFirstLib.framework */,
 				18227C9C264053A9002FF2C7 /* JDFirstLibTests.xctest */,
+				18227CB326405558002FF2C7 /* JDFirstLibExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +107,20 @@
 				18227CA3264053A9002FF2C7 /* Info.plist */,
 			);
 			path = JDFirstLibTests;
+			sourceTree = "<group>";
+		};
+		18227CB426405558002FF2C7 /* JDFirstLibExample */ = {
+			isa = PBXGroup;
+			children = (
+				18227CB526405558002FF2C7 /* AppDelegate.swift */,
+				18227CB726405558002FF2C7 /* SceneDelegate.swift */,
+				18227CB926405558002FF2C7 /* ViewController.swift */,
+				18227CBB26405558002FF2C7 /* Main.storyboard */,
+				18227CBE2640555A002FF2C7 /* Assets.xcassets */,
+				18227CC02640555A002FF2C7 /* LaunchScreen.storyboard */,
+				18227CC32640555A002FF2C7 /* Info.plist */,
+			);
+			path = JDFirstLibExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +173,23 @@
 			productReference = 18227C9C264053A9002FF2C7 /* JDFirstLibTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		18227CB226405558002FF2C7 /* JDFirstLibExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18227CC42640555A002FF2C7 /* Build configuration list for PBXNativeTarget "JDFirstLibExample" */;
+			buildPhases = (
+				18227CAF26405558002FF2C7 /* Sources */,
+				18227CB026405558002FF2C7 /* Frameworks */,
+				18227CB126405558002FF2C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JDFirstLibExample;
+			productName = JDFirstLibExample;
+			productReference = 18227CB326405558002FF2C7 /* JDFirstLibExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +203,9 @@
 						CreatedOnToolsVersion = 12.4;
 					};
 					18227C9B264053A9002FF2C7 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					18227CB226405558002FF2C7 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
@@ -168,6 +225,7 @@
 			targets = (
 				18227C92264053A9002FF2C7 /* JDFirstLib */,
 				18227C9B264053A9002FF2C7 /* JDFirstLibTests */,
+				18227CB226405558002FF2C7 /* JDFirstLibExample */,
 			);
 		};
 /* End PBXProject section */
@@ -184,6 +242,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18227CB126405558002FF2C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18227CC22640555A002FF2C7 /* LaunchScreen.storyboard in Resources */,
+				18227CBF2640555A002FF2C7 /* Assets.xcassets in Resources */,
+				18227CBD26405558002FF2C7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +273,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		18227CAF26405558002FF2C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18227CBA26405558002FF2C7 /* ViewController.swift in Sources */,
+				18227CB626405558002FF2C7 /* AppDelegate.swift in Sources */,
+				18227CB826405558002FF2C7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -214,6 +292,25 @@
 			targetProxy = 18227C9E264053A9002FF2C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18227CBB26405558002FF2C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18227CBC26405558002FF2C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18227CC02640555A002FF2C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18227CC12640555A002FF2C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		18227CA5264053A9002FF2C7 /* Debug */ = {
@@ -422,6 +519,44 @@
 			};
 			name = Release;
 		};
+		18227CC52640555A002FF2C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7R3Y3G5X7;
+				INFOPLIST_FILE = JDFirstLibExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdc.JDFirstLibExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18227CC62640555A002FF2C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7R3Y3G5X7;
+				INFOPLIST_FILE = JDFirstLibExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdc.JDFirstLibExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -448,6 +583,15 @@
 			buildConfigurations = (
 				18227CAB264053A9002FF2C7 /* Debug */,
 				18227CAC264053A9002FF2C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18227CC42640555A002FF2C7 /* Build configuration list for PBXNativeTarget "JDFirstLibExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18227CC52640555A002FF2C7 /* Debug */,
+				18227CC62640555A002FF2C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
